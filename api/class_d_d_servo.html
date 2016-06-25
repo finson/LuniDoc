@@ -39,6 +39,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -88,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_d_d_servo-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">DDServo Class Reference</div>  </div>
+<div class="title">DDServo Class Reference<div class="ingroups"><a class="el" href="group___d_d_implementation.html">Device Driver Implementations</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
@@ -97,7 +98,7 @@ Inheritance diagram for DDServo:</div>
  <div class="center">
   <img src="class_d_d_servo.png" usemap="#DDServo_map" alt=""/>
   <map id="DDServo_map" name="DDServo_map">
-<area href="class_device_driver.html" alt="DeviceDriver" shape="rect" coords="0,0,88,24"/>
+<area href="class_device_driver.html" title=", This DeviceDriver class is the base class for all the device drivers. " alt="DeviceDriver" shape="rect" coords="0,0,88,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -116,16 +117,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2b8574272030ff185350476c2951cddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This device driver is for servo controllers.  <a href="#a2b8574272030ff185350476c2951cddc">More...</a><br /></td></tr>
 <tr class="separator:a2b8574272030ff185350476c2951cddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80cab3b3097d9490f382fc3b42b26dfe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe">open</a> (int opts, int flags, const char *name)</td></tr>
-<tr class="memdesc:a80cab3b3097d9490f382fc3b42b26dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <a class="el" href="class_device_driver.html">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> performs the initial tasks of opening a logical unit, namely finding out if the call is targeting a device that this instance is responsible for, and if it is, then checking the associated lun and making sure that it is free.  <a href="#a80cab3b3097d9490f382fc3b42b26dfe">More...</a><br /></td></tr>
+<tr class="memdesc:a80cab3b3097d9490f382fc3b42b26dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <a class="el" href="class_device_driver.html" title=", This DeviceDriver class is the base class for all the device drivers. ">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> performs the initial tasks of opening a logical unit, namely finding out if the call is targeting a device that this instance is responsible for, and if it is, then checking the associated lun and making sure that it is free.  <a href="#a80cab3b3097d9490f382fc3b42b26dfe">More...</a><br /></td></tr>
 <tr class="separator:a80cab3b3097d9490f382fc3b42b26dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7494bc269305b1036b897a21ecc79e40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40">read</a> (int handle, int flags, int reg, int count, byte *buf)</td></tr>
-<tr class="memdesc:a7494bc269305b1036b897a21ecc79e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <a class="el" href="class_device_driver.html">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> is called by the subclass <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> methods to handle the generic responses that all device drivers implement the same way.  <a href="#a7494bc269305b1036b897a21ecc79e40">More...</a><br /></td></tr>
+<tr class="memdesc:a7494bc269305b1036b897a21ecc79e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <a class="el" href="class_device_driver.html" title=", This DeviceDriver class is the base class for all the device drivers. ">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> is called by the subclass <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> methods to handle the generic responses that all device drivers implement the same way.  <a href="#a7494bc269305b1036b897a21ecc79e40">More...</a><br /></td></tr>
 <tr class="separator:a7494bc269305b1036b897a21ecc79e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64abb2df3d2c62ce38b5e7e6b9ebbfca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca">write</a> (int handle, int flags, int reg, int count, byte *buf)</td></tr>
-<tr class="memdesc:a64abb2df3d2c62ce38b5e7e6b9ebbfca"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <a class="el" href="class_device_driver.html">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> is called by the subclass <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> methods to handle the generic responses that all device drivers implement the same way.  <a href="#a64abb2df3d2c62ce38b5e7e6b9ebbfca">More...</a><br /></td></tr>
+<tr class="memdesc:a64abb2df3d2c62ce38b5e7e6b9ebbfca"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <a class="el" href="class_device_driver.html" title=", This DeviceDriver class is the base class for all the device drivers. ">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> is called by the subclass <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> methods to handle the generic responses that all device drivers implement the same way.  <a href="#a64abb2df3d2c62ce38b5e7e6b9ebbfca">More...</a><br /></td></tr>
 <tr class="separator:a64abb2df3d2c62ce38b5e7e6b9ebbfca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a905e61d98cb58bb820803aa30e37426e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a905e61d98cb58bb820803aa30e37426e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>close</b> (int handle, int flags)</td></tr>
+<tr class="memitem:a905e61d98cb58bb820803aa30e37426e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_d_servo.html#a905e61d98cb58bb820803aa30e37426e">close</a> (int handle, int flags)</td></tr>
+<tr class="memdesc:a905e61d98cb58bb820803aa30e37426e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <a class="el" href="class_device_driver.html" title=", This DeviceDriver class is the base class for all the device drivers. ">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a905e61d98cb58bb820803aa30e37426e" title="This DeviceDriver base class implementation of close() performs the final tasks of closing a logical ...">close()</a> performs the final tasks of closing a logical unit, namely releasing the memory that was allocated for the logical unit info object by the subclass and zeroing out the pointer to it to indicate that the lun is now available again.  <a href="#a905e61d98cb58bb820803aa30e37426e">More...</a><br /></td></tr>
 <tr class="separator:a905e61d98cb58bb820803aa30e37426e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba4566e63b7dd2a3fe5cbb680767e7fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba4566e63b7dd2a3fe5cbb680767e7fb"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>processTimerEvent</b> (int lun, int timerSelector, <a class="el" href="class_client_reporter.html">ClientReporter</a> *report)</td></tr>
@@ -204,12 +205,60 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>logicalUnitCount</b></
 <p>This device driver is for servo controllers. </p>
 <p>It uses the basic servo library supplied with Arduino.</p>
 <p>Information needed by the device driver about each attached servo is held in an object of the <a class="el" href="class_l_u_servo.html">LUServo</a> class. The <a class="el" href="class_l_u_servo.html">LUServo</a> class extends the Servo class that the library itself uses for maintaining the detailed state of each attached servo.</p>
-<p>Because the library uses up a slot index every time a Servo object is allocated, and has no way to reclaim slot indexes no longer in use, this device driver constructor allocates an <a class="el" href="class_l_u_servo.html">LUServo</a> object for every available lun and then just points to them in the logicalUnits pointer array when needed for <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> and zeroes out the pointer for close(). (The more common method is to create and free LUI objects as luns are opened and closed.)</p>
+<p>Because the library uses up a slot index every time a Servo object is allocated, and has no way to reclaim slot indexes no longer in use, this device driver constructor allocates an <a class="el" href="class_l_u_servo.html">LUServo</a> object for every available lun and then just points to them in the logicalUnits pointer array when needed for <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> and zeroes out the pointer for <a class="el" href="class_d_d_servo.html#a905e61d98cb58bb820803aa30e37426e" title="This DeviceDriver base class implementation of close() performs the final tasks of closing a logical ...">close()</a>. (The more common method is to create and free LUI objects as luns are opened and closed.)</p>
 <p>If the memory allocations fail, logicalUnitCount is set to 0 and all calls to the <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> method for this device will fail with ENXIO, No such device or address. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a905e61d98cb58bb820803aa30e37426e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DDServo::close </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This <a class="el" href="class_device_driver.html" title=", This DeviceDriver class is the base class for all the device drivers. ">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a905e61d98cb58bb820803aa30e37426e" title="This DeviceDriver base class implementation of close() performs the final tasks of closing a logical ...">close()</a> performs the final tasks of closing a logical unit, namely releasing the memory that was allocated for the logical unit info object by the subclass and zeroing out the pointer to it to indicate that the lun is now available again. </p>
+<p>Prior to calling this <a class="el" href="class_d_d_servo.html#a905e61d98cb58bb820803aa30e37426e" title="This DeviceDriver base class implementation of close() performs the final tasks of closing a logical ...">close()</a> method, the device driver subclass should do any cleanup needed for the specific tasks that were done during the associated open.</p>
+<p>Note that this method is the one that releases the memory, even though the subclass <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> is where it was allocated.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">handle</td><td>[description] </td></tr>
+    <tr><td class="paramname">flags</td><td>[description] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>[description] </dd></dl>
+
+<p>Implements <a class="el" href="class_device_driver.html#a6d40ea07f351609e9e5ae13d05acdb5b">DeviceDriver</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a80cab3b3097d9490f382fc3b42b26dfe"></a>
 <div class="memitem">
 <div class="memproto">
@@ -248,7 +297,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>logicalUnitCount</b></
 </table>
 </div><div class="memdoc">
 
-<p>This <a class="el" href="class_device_driver.html">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> performs the initial tasks of opening a logical unit, namely finding out if the call is targeting a device that this instance is responsible for, and if it is, then checking the associated lun and making sure that it is free. </p>
+<p>This <a class="el" href="class_device_driver.html" title=", This DeviceDriver class is the base class for all the device drivers. ">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> performs the initial tasks of opening a logical unit, namely finding out if the call is targeting a device that this instance is responsible for, and if it is, then checking the associated lun and making sure that it is free. </p>
 <p>The result of the work by this base class <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> is then returned for further processing or error reporting to the calling subclass <a class="el" href="class_d_d_servo.html#a80cab3b3097d9490f382fc3b42b26dfe" title="This DeviceDriver base class implementation of open() performs the initial tasks of opening a logical...">open()</a> method.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -314,7 +363,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>logicalUnitCount</b></
 </table>
 </div><div class="memdoc">
 
-<p>This <a class="el" href="class_device_driver.html">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> is called by the subclass <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> methods to handle the generic responses that all device drivers implement the same way. </p>
+<p>This <a class="el" href="class_device_driver.html" title=", This DeviceDriver class is the base class for all the device drivers. ">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> is called by the subclass <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> methods to handle the generic responses that all device drivers implement the same way. </p>
 <p>If this method returns ENOTSUP, then the subclass <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> should attempt to process the call itself. If this method returns any other value, positive or negative, then the subclass <a class="el" href="class_d_d_servo.html#a7494bc269305b1036b897a21ecc79e40" title="This DeviceDriver base class implementation of read() is called by the subclass read() methods to han...">read()</a> should return that value to its caller with no further processing.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -382,7 +431,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>logicalUnitCount</b></
 </table>
 </div><div class="memdoc">
 
-<p>This <a class="el" href="class_device_driver.html">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> is called by the subclass <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> methods to handle the generic responses that all device drivers implement the same way. </p>
+<p>This <a class="el" href="class_device_driver.html" title=", This DeviceDriver class is the base class for all the device drivers. ">DeviceDriver</a> base class implementation of <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> is called by the subclass <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> methods to handle the generic responses that all device drivers implement the same way. </p>
 <p>If this method returns ENOTSUP, then the subclass <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> should attempt to process the call itself. If this method returns any other value, positive or negative, then the subclass <a class="el" href="class_d_d_servo.html#a64abb2df3d2c62ce38b5e7e6b9ebbfca" title="This DeviceDriver base class implementation of write() is called by the subclass write() methods to h...">write()</a> should return that value to its caller with no further processing.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -401,8 +450,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>logicalUnitCount</b></
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/DDServo/<a class="el" href="_d_d_servo_8h_source.html">DDServo.h</a></li>
-<li>src/DDServo/DDServo.cpp</li>
+<li>E:/users/finson/repos/pipe/libraries/Luni/src/DDServo/<a class="el" href="_d_d_servo_8h_source.html">DDServo.h</a></li>
+<li>E:/users/finson/repos/pipe/libraries/Luni/src/DDServo/DDServo.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

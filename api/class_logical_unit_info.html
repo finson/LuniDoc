@@ -39,6 +39,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -110,33 +111,39 @@ Inheritance diagram for LogicalUnitInfo:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_logical_unit_info_1_1_rate_action.html">RateAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This <a class="el" href="struct_logical_unit_info_1_1_rate_action.html" title="This RateAction struct describes the device driver call to make when one of the two timers expires fo...">RateAction</a> struct describes the device driver call to make when one of the two timers expires for this logical unit.  <a href="struct_logical_unit_info_1_1_rate_action.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae10378c1d8e78f47c7ae42d3e6f7ade3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae10378c1d8e78f47c7ae42d3e6f7ade3"></a>
-unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>intervalTime</b> [2]</td></tr>
+unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_logical_unit_info.html#ae10378c1d8e78f47c7ae42d3e6f7ade3">intervalTime</a> [2]</td></tr>
+<tr class="memdesc:ae10378c1d8e78f47c7ae42d3e6f7ade3"><td class="mdescLeft">&#160;</td><td class="mdescRight">desired length of time between calls to processTimerEvent() <br /></td></tr>
 <tr class="separator:ae10378c1d8e78f47c7ae42d3e6f7ade3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a509b8317daf9abee4917f103fff86c0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a509b8317daf9abee4917f103fff86c0a"></a>
-unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>previousTime</b> [2]</td></tr>
+unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_logical_unit_info.html#a509b8317daf9abee4917f103fff86c0a">previousTime</a> [2]</td></tr>
+<tr class="memdesc:a509b8317daf9abee4917f103fff86c0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the time the last interval expired <br /></td></tr>
 <tr class="separator:a509b8317daf9abee4917f103fff86c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af05b068fb8feb7fe826bd415cc7689e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af05b068fb8feb7fe826bd415cc7689e0"></a>
-unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>currentTime</b> [2]</td></tr>
+unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_logical_unit_info.html#af05b068fb8feb7fe826bd415cc7689e0">currentTime</a> [2]</td></tr>
+<tr class="memdesc:af05b068fb8feb7fe826bd415cc7689e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the current values from micros() and millis() <br /></td></tr>
 <tr class="separator:af05b068fb8feb7fe826bd415cc7689e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27cdd888fa53d3400b2dc374c73f6f24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27cdd888fa53d3400b2dc374c73f6f24"></a>
-unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>deltaTime</b> [2]</td></tr>
+unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_logical_unit_info.html#a27cdd888fa53d3400b2dc374c73f6f24">deltaTime</a> [2]</td></tr>
+<tr class="memdesc:a27cdd888fa53d3400b2dc374c73f6f24"><td class="mdescLeft">&#160;</td><td class="mdescRight">amount of time since last interval expired <br /></td></tr>
 <tr class="separator:a27cdd888fa53d3400b2dc374c73f6f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbe2fe095d369686c65db4ef83d0ba07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbe2fe095d369686c65db4ef83d0ba07"></a>
-<a class="el" href="struct_logical_unit_info_1_1_rate_action.html">RateAction</a>&#160;</td><td class="memItemRight" valign="bottom"><b>eventAction</b> [2]</td></tr>
+<a class="el" href="struct_logical_unit_info_1_1_rate_action.html">RateAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_logical_unit_info.html#adbe2fe095d369686c65db4ef83d0ba07">eventAction</a> [2]</td></tr>
+<tr class="memdesc:adbe2fe095d369686c65db4ef83d0ba07"><td class="mdescLeft">&#160;</td><td class="mdescRight">action to take when timer expires <br /></td></tr>
 <tr class="separator:adbe2fe095d369686c65db4ef83d0ba07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab5f5d1ac21135db6991386713de4ebee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5f5d1ac21135db6991386713de4ebee"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>lockPin</b> (int p)</td></tr>
+<tr class="memitem:ab5f5d1ac21135db6991386713de4ebee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_logical_unit_info.html#ab5f5d1ac21135db6991386713de4ebee">lockPin</a> (int p)</td></tr>
+<tr class="memdesc:ab5f5d1ac21135db6991386713de4ebee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request exclusive use of a particular pin.  <a href="#ab5f5d1ac21135db6991386713de4ebee">More...</a><br /></td></tr>
 <tr class="separator:ab5f5d1ac21135db6991386713de4ebee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25eeceba985e5536bc65dea55803ba15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25eeceba985e5536bc65dea55803ba15"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>unlockPin</b> (int p)</td></tr>
+<tr class="memitem:a25eeceba985e5536bc65dea55803ba15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_logical_unit_info.html#a25eeceba985e5536bc65dea55803ba15">unlockPin</a> (int p)</td></tr>
+<tr class="memdesc:a25eeceba985e5536bc65dea55803ba15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release all claim to exclusive use of a particular pin.  <a href="#a25eeceba985e5536bc65dea55803ba15">More...</a><br /></td></tr>
 <tr class="separator:a25eeceba985e5536bc65dea55803ba15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -148,9 +155,76 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>DeviceDriver</b></td
 class&#160;</td><td class="memItemRight" valign="bottom"><b>DDMeta</b></td></tr>
 <tr class="separator:aed4df0838e5e92edce7f258a82e62e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ab5f5d1ac21135db6991386713de4ebee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LogicalUnitInfo::lockPin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Request exclusive use of a particular pin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin</td><td>A full-range (digital) pin number. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if pin was idle, now it's ours. Return false if pin was already in use by someone else and we can't have it. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a25eeceba985e5536bc65dea55803ba15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LogicalUnitInfo::unlockPin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Release all claim to exclusive use of a particular pin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin</td><td>A full-range (digital) pin number. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if pin was ours, now it's not. Return false if pin was not in use by anyone! </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/Device/<a class="el" href="_logical_unit_info_8h_source.html">LogicalUnitInfo.h</a></li>
-<li>src/Device/LogicalUnitInfo.cpp</li>
+<li>E:/users/finson/repos/pipe/libraries/Luni/src/Device/<a class="el" href="_logical_unit_info_8h_source.html">LogicalUnitInfo.h</a></li>
+<li>E:/users/finson/repos/pipe/libraries/Luni/src/Device/LogicalUnitInfo.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

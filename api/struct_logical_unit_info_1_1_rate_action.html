@@ -39,6 +39,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -94,36 +95,66 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">LogicalUnitInfo::RateAction Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This <a class="el" href="struct_logical_unit_info_1_1_rate_action.html" title="This RateAction struct describes the device driver call to make when one of the two timers expires fo...">RateAction</a> struct describes the device driver call to make when one of the two timers expires for this logical unit.  
+ <a href="struct_logical_unit_info_1_1_rate_action.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_logical_unit_info_8h_source.html">LogicalUnitInfo.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2692c6b352cd8b20659b45a7f2e8d260"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2692c6b352cd8b20659b45a7f2e8d260"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>enabled</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_logical_unit_info_1_1_rate_action.html#a2692c6b352cd8b20659b45a7f2e8d260">enabled</a></td></tr>
+<tr class="memdesc:a2692c6b352cd8b20659b45a7f2e8d260"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, then this <a class="el" href="struct_logical_unit_info_1_1_rate_action.html" title="This RateAction struct describes the device driver call to make when one of the two timers expires fo...">RateAction</a> has a valid definition and can be run. <br /></td></tr>
 <tr class="separator:a2692c6b352cd8b20659b45a7f2e8d260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac062669affd0f4444bb31cc64123eea1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac062669affd0f4444bb31cc64123eea1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>action</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_logical_unit_info_1_1_rate_action.html#ac062669affd0f4444bb31cc64123eea1">action</a></td></tr>
+<tr class="memdesc:ac062669affd0f4444bb31cc64123eea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The device action code of the driver call to be made: READ or WRITE. <br /></td></tr>
 <tr class="separator:ac062669affd0f4444bb31cc64123eea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d91cd1af011b447346df9b5db00d001"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d91cd1af011b447346df9b5db00d001"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>handle</b></td></tr>
+<tr class="memitem:a9d91cd1af011b447346df9b5db00d001"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_logical_unit_info_1_1_rate_action.html#a9d91cd1af011b447346df9b5db00d001">handle</a></td></tr>
+<tr class="memdesc:a9d91cd1af011b447346df9b5db00d001"><td class="mdescLeft">&#160;</td><td class="mdescRight">The handle to use in making the call.  <a href="#a9d91cd1af011b447346df9b5db00d001">More...</a><br /></td></tr>
 <tr class="separator:a9d91cd1af011b447346df9b5db00d001"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ce407be7f2cd1f7bf665a8b0b1062fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ce407be7f2cd1f7bf665a8b0b1062fd"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>flags</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_logical_unit_info_1_1_rate_action.html#a8ce407be7f2cd1f7bf665a8b0b1062fd">flags</a></td></tr>
+<tr class="memdesc:a8ce407be7f2cd1f7bf665a8b0b1062fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The value of the flags argument for the call. <br /></td></tr>
 <tr class="separator:a8ce407be7f2cd1f7bf665a8b0b1062fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59728495648123f074ca802f5ac24461"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59728495648123f074ca802f5ac24461"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>reg</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_logical_unit_info_1_1_rate_action.html#a59728495648123f074ca802f5ac24461">reg</a></td></tr>
+<tr class="memdesc:a59728495648123f074ca802f5ac24461"><td class="mdescLeft">&#160;</td><td class="mdescRight">The device register number for the call. <br /></td></tr>
 <tr class="separator:a59728495648123f074ca802f5ac24461"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5581f67eefacb9959be93e3655df2f0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5581f67eefacb9959be93e3655df2f0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>count</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_logical_unit_info_1_1_rate_action.html#ae5581f67eefacb9959be93e3655df2f0">count</a></td></tr>
+<tr class="memdesc:ae5581f67eefacb9959be93e3655df2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of bytes to be read or written. <br /></td></tr>
 <tr class="separator:ae5581f67eefacb9959be93e3655df2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab740296732bd4ee42ecc13d3309eda14"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab740296732bd4ee42ecc13d3309eda14"></a>
-byte&#160;</td><td class="memItemRight" valign="bottom"><b>queryBuffer</b> [QUERY_BUFFER_SIZE]</td></tr>
+byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_logical_unit_info_1_1_rate_action.html#ab740296732bd4ee42ecc13d3309eda14">queryBuffer</a> [QUERY_BUFFER_SIZE]</td></tr>
+<tr class="memdesc:ab740296732bd4ee42ecc13d3309eda14"><td class="mdescLeft">&#160;</td><td class="mdescRight">The outgoing (query) buffer. <br /></td></tr>
 <tr class="separator:ab740296732bd4ee42ecc13d3309eda14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29a72ff0fdc3357331713ed53795a4ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29a72ff0fdc3357331713ed53795a4ad"></a>
-byte&#160;</td><td class="memItemRight" valign="bottom"><b>responseBuffer</b> [RESPONSE_BUFFER_SIZE]</td></tr>
+byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_logical_unit_info_1_1_rate_action.html#a29a72ff0fdc3357331713ed53795a4ad">responseBuffer</a> [RESPONSE_BUFFER_SIZE]</td></tr>
+<tr class="memdesc:a29a72ff0fdc3357331713ed53795a4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">The incoming (response) buffer. <br /></td></tr>
 <tr class="separator:a29a72ff0fdc3357331713ed53795a4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This <a class="el" href="struct_logical_unit_info_1_1_rate_action.html" title="This RateAction struct describes the device driver call to make when one of the two timers expires fo...">RateAction</a> struct describes the device driver call to make when one of the two timers expires for this logical unit. </p>
+<p>Timer[0] counts in microseconds, timer[1] counts in milliseconds. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a9d91cd1af011b447346df9b5db00d001"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int LogicalUnitInfo::RateAction::handle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The handle to use in making the call. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/Device/<a class="el" href="_logical_unit_info_8h_source.html">LogicalUnitInfo.h</a></li>
+<li>E:/users/finson/repos/pipe/libraries/Luni/src/Device/<a class="el" href="_logical_unit_info_8h_source.html">LogicalUnitInfo.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
